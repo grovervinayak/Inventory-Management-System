@@ -1,0 +1,88 @@
+.item-list-name
+{
+font-size: 16px;
+   color: #282c3f;
+   font-weight: 500;
+   line-height: 20px;
+}
+.single-item-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d373;
+align-items: center;
+padding: 10px 0px;
+}
+.add-item-button-in {
+    border: 1px solid lightgray;
+    text-transform: uppercase;
+    height: 28px;
+    color: #60b246;
+    font-weight: 700;
+    cursor: pointer;
+    width: 75px;
+    text-align: center;
+}
+.items-listing-page {
+    width: 100%;
+}
+.order-items-page {
+position: fixed;
+right: 34px;
+width: 29%;
+}
+.ordered-item-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #7e808c;
+    border-bottom: 1px solid #d3d3d38c;
+    margin-bottom: 20px;
+}
+.total-price {
+    margin-right: calc(30% - 47px);
+    font-weight: 800;
+    font-size: 18px;
+    color: #60b246;
+margin-bottom: 35px;
+margin-top: 20px;
+}
+.order-item-button-or {
+    background: #267313;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 40px;
+    float: right;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+.item-list-price {
+    font-weight: 900;
+    color: #a5a5a5;
+}
+.process-upper.box-dc-shadow-hd-lt-grey.bkground-dc-white {
+    margin-top: 30px;
+    margin-left: 103px;
+    padding: 20px;
+}
+.icon-icon-icon-count {
+    flex: 0 0 33%;
+    background: #80808024;
+}
+.thead-item-order
+{
+    color: white;
+    background: #267313;
+    text-transform: uppercase;
+}
+.trbody-item-order
+{
+    border: 1px solid #00000033;
+}
+.offer-page {
+    background: white;
+    margin-left: 10px;
+    box-shadow: 1px 3px 11px 0px lightgrey;
+    padding: 10px;
+    cursor: pointer;
+}
